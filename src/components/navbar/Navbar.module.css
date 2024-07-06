@@ -1,0 +1,86 @@
+.navbarParent {
+  font-size: 16px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2em;
+  height: 1.5em;
+  box-shadow: 0 0 10px;
+  background-color:rgb(183, 242, 242);
+  z-index: 1000; 
+}
+
+.navbarLogo {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 2em;
+  /* height: 20px; */
+  /* width: 20px; */
+
+}
+
+.navbarTitle {
+  font-size: 2em;
+  cursor: pointer;
+  
+  
+}
+.area{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.navbarLinks a {
+  text-decoration: none; 
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
+
+.navbarLinks a:hover {
+  text-decoration: none ;
+}
+.bDiv{
+  display: flex;
+  gap: 20px;
+}
+.navbarButton{
+  background-color: rgb(183, 242, 242);
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+
+@media (max-width: 450px) {
+  .navbarParent {
+    font-size: 10px;
+    padding: 0.8em;
+  }
+
+  .navbarTitle {
+    font-size: 1.5em; 
+  }
+
+  
+}
+
+@media (max-width: 320px) {
+  .navbarParent {
+    font-size: 8px;
+    padding: 0.6em; 
+  }
+
+  .navbarTitle {
+    font-size: 1.2em; 
+  }
+
+
+}

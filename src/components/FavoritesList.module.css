@@ -1,0 +1,82 @@
+/* FavoritesList.module.css */
+
+.favoritesPage {
+    padding: 40px;
+  }
+  .feaheading{
+    text-align: center;
+  }
+  
+  .moviesParent {
+    display: flex;
+    
+    gap: 20px;
+  }
+    .card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cardImage {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .cardContent {
+    padding: 10px;
+  }
+  
+  .cardContent h3 {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .button1 {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .button1:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .button1 {
+      font-size: 12px;
+      padding: 6px 10px;
+    }
+  }
+  
+  .favoriteButton {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  .favoriteButton:hover {
+    background-color: #218838;
+  }
+  
+  
+  

@@ -1,0 +1,41 @@
+
+.moviesParent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.paginationArrow {
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  margin: 0 1rem;
+}
+.pageCount {
+  font-size: 1.2rem;
+}
+
+.filtersContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 5rem;
+}
+
+.searchInput, .filterInput {
+  width: 30%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
